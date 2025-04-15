@@ -13,7 +13,7 @@ The syntax for the code is
 
 `H, FF, II, numitns = hoffman(A,maxiter)`
 
-The output `numitns` records the total number of main iterations.  This output is $-1$ when the maximum number of iterations `\maxiter` is reached.  In that case the value of `H` is only a lower bound on $H(A)$.
+The output `numitns` records the total number of main iterations.  This output is $-1$ when the maximum number of iterations `maxiter` is reached.  In that case the value of `H` is only a lower bound on $H(A)$.
 
 The main files are in the python file "Hoffman.py"
 This notebook illustrates the code in some instances of Examples 1, 2, and 3 from the above article.
