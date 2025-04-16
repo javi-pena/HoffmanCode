@@ -1,4 +1,4 @@
-This is a python implementation of an algorithm to compute Hoffman constants as described in Section 3.2 of the Math Programming article "New characterizations of Hoffman constants for systems of linear constraints", by Pena, Vera, Zuluaga.
+This is a python implementation of an algorithm to compute the *exact* Hoffman constant of system of linear inequalities as described in Section 3.2 of the Math Programming article "New characterizations of Hoffman constants for systems of linear constraints", by Pena, Vera, Zuluaga.
 
 The code takes as input a matrix $A\in \mathbb{R}^{m\times n}$ and computes the Hoffman constant $H(A)$ defined as follows.  For $b\in \mathbb{R}^m$ let $P_A(b):=\\{x\in \mathbb{R}^n: Ax\le b\\}$.  Define
 
